@@ -9,8 +9,11 @@ var maxRand = 3;
 var randNum = Math.floor( Math.random() * maxRand );
 console.log(randNum);
 
-// Swap Out Banner
-$('header img').attr('src', eval('img' + randNum) );
+// Video Banner
+$('#video').YTPlayer({
+    fitToBackground: true,
+    videoId: 'rHG-JO8gIGk', mute: false, pauseOnScroll: true
+});
 
 // Lightgallery
 $('figure').lightGallery({

@@ -1,4 +1,4 @@
-/* Grand Central Station. Operator. Main. */
+
 // Imports
 @import "normalize";
 @import "lightgallery";
@@ -25,18 +25,21 @@ main header img {
     width: 100%;
     max-width: 100%;
 }
+img{
+    align-content: center;
+}
 
 // Random Backgrounds
 .bg0 {
-  background: #656565;
+  background: lightblue;
 }
 
 .bg1 {
-  background: #c3c3c3;
+  background: lightpink;
 }
 
 .bg2 {
-  background: #989898;
+  background: lightgreen;
 }
 
 // Portfolio Items
@@ -48,7 +51,7 @@ article {
 }
 
 article figure {
-  background: antiquewhite;
+  background: white;
   padding: 2em;
   width: 20em;
   

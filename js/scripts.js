@@ -21,6 +21,3 @@ $('figure').lightGallery({
     mode: 'lg-lollipop',
     thumbnail: true
 });
-
-// Random Background
-$('body').addClass( 'bg' + randNum );

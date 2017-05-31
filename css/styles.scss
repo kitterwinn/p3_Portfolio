@@ -3,46 +3,37 @@
 @import "normalize";
 @import "lightgallery";
 @import "lg-transitions";
+@import url('https://fonts.googleapis.com/css?family=Chewy');
 
 h1{
+    display: flex;
     text-align: center;
 }
 body {
-    background: #ccc;
+    color:#52bab3;
 }
 
 // Layout
 main {
-    background: #fff;
+    color: #52bab3;
     margin: 0 auto;
     width: 90%;
 }
-div{
-    margin: 20px 20px 20px 20px;
+banner.video {
+    width:100%;
+    height: 300px;
 }
-// RWD header img
-main header img {
-    width: 100%;
-    max-width: 100%;
-}
-img{
-    align-content: center;
-}
-
-// Random Backgrounds
-.bg0 {
-  background: lightblue;
+div.intro{
+    font-family:'Chewy', cursive;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-.bg1 {
-  background: lightpink;
+figure.profile{
+    background-color: #52bab3;
 }
-
-.bg2 {
-  background: lightgreen;
-}
-
-// Portfolio Items
 // Flexbox Layout
 article {
   display: flex;
@@ -51,7 +42,6 @@ article {
 }
 
 article figure {
-  background: white;
   padding: 2em;
   width: 20em;
   
